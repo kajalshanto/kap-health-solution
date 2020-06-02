@@ -1,0 +1,442 @@
+/********************************
+*** RESPONSIVE CSS
+*********************************/
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 478px) {
+
+    /*-- NAVBAR --*/
+    .navbar {
+        padding: .8rem 0rem;
+    }
+
+    .navbar-brand {
+        font-size: 17px;
+    }
+
+    .form-inline .call {
+        font-size: 10px;
+    }
+
+    #hero {
+        height: 175vh;
+    }
+
+    .text-area {
+        margin-top: 98%;
+    }
+
+    .text-area .title {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .text-area .para {
+        font-size: 18px;
+    }
+
+    .hero-img {
+        position: absolute;
+        right: 0;
+        top: -10px !important;
+    }
+
+    .hero-img img {
+        width: 100%;
+    }
+
+    /*-- OFFER --*/
+    .offer-text {
+        margin-bottom: 50px;
+    }
+
+    .offer-text h1 {
+        font-size: 36px;
+    }
+
+    .offer-text p {
+        font-size: 14px;
+        margin-bottom: 5px !important;
+    }
+
+    .offer-text h4 {
+        font-size: 16px;
+    }
+
+    .offer-text h5 {
+        font-size: 16px;
+    }
+
+    .offer-text .call {
+        font-size: 18px;
+    }
+
+    /*-- ABOUT --*/
+    .about-text h1 {
+        font-size: 36px;
+    }
+
+    .about-text {
+        margin-bottom: 50px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+
+    /*-- carousel --*/
+    .clients-area h1 {
+        font-size: 26px;
+    }
+
+    #carouselExampleControls {
+        padding: 30px 0;
+        max-width: 350px;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+
+    .img-area {
+        float: left;
+        margin-left: 24%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .client-title {
+        margin-top: -5px;
+    }
+
+    .client-title h5 {
+        font-size: 14px;
+    }
+
+    .client-title p {
+        font-size: 12px;
+    }
+
+    .carousel-caption {
+        padding-bottom: 15px;
+        margin-top: 40px;
+        padding: 20px 20px;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
+    }
+
+    .carousel-caption p span {
+        font-size: 50px;
+        position: absolute;
+        top: 42px;
+        left: 10px;
+    }
+
+    .carousel-control-prev {
+        display: none;
+    }
+
+    .carousel-control-next {
+        display: none;
+    }
+
+    /*-- FOOTER --*/
+    .foot-right {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .foot-right h2 {
+
+        font-size: 28px !important;
+    }
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 479px) and (max-width: 767.98px) {
+
+    /*-- NAVBAR --*/
+    .navbar {
+        padding: .8rem 0rem;
+    }
+
+    .navbar-brand {
+        font-size: 22px;
+    }
+
+    .form-inline .call {
+        font-size: 14px;
+    }
+
+    /*-- BANNER --*/
+    #hero {
+        height: 180vh;
+    }
+
+    .text-area {
+        margin-top: 83%;
+    }
+
+    .text-area .title {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .text-area .para {
+        font-size: 18px;
+    }
+
+    .hero-img {
+        position: absolute;
+        right: 0;
+        top: -10px !important;
+    }
+
+    .hero-img img {
+        width: 100%;
+    }
+
+    /*-- OFFER --*/
+    #offers {
+        margin-top: 5px;
+    }
+
+    .offer-text {
+        margin-bottom: 50px;
+    }
+
+    .offer-text h1 {
+        font-size: 36px;
+    }
+
+    .offer-text p {
+        font-size: 14px;
+        margin-bottom: 5px !important;
+    }
+
+    .offer-text h4 {
+        font-size: 16px;
+    }
+
+    .offer-text h5 {
+        font-size: 16px;
+    }
+
+    .offer-text .call {
+        font-size: 18px;
+    }
+
+    /*-- ABOUT --*/
+    .about-text h1 {
+        font-size: 36px;
+    }
+
+    .about-text {
+        margin-bottom: 50px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+
+    /*-- carousel --*/
+    .clients-area h1 {
+        font-size: 32px;
+    }
+
+    #carouselExampleControls {
+        padding: 30px 0;
+        max-width: 350px;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+
+    .img-area {
+        float: left;
+        margin-left: 24%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .client-title {
+        margin-top: -5px;
+    }
+
+    .client-title h5 {
+        font-size: 14px;
+    }
+
+    .client-title p {
+        font-size: 12px;
+    }
+
+    .carousel-caption {
+        padding-bottom: 15px;
+        margin-top: 40px;
+        padding: 20px 20px;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
+    }
+
+    .carousel-caption p span {
+        font-size: 50px;
+        position: absolute;
+        top: 42px;
+        left: 10px;
+    }
+
+    .carousel-control-prev {
+        display: none;
+    }
+
+    .carousel-control-next {
+        display: none;
+    }
+
+    /*-- FOOTER --*/
+    .foot-right {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .foot-right h2 {
+        font-size: 28px !important;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*-- NAVBAR --*/
+
+    .navbar-brand {
+        font-size: 28px;
+    }
+
+    .form-inline .call {
+        font-size: 16px;
+    }
+
+    /*-- BANNER --*/
+    #hero {
+        height: 100vh;
+    }
+
+    .text-area {
+        margin-top: 15%;
+    }
+
+    .text-area .title {
+        font-size: 33px;
+    }
+
+    .text-area .para {
+        font-size: 20px;
+    }
+
+    .hero-img {
+        position: absolute;
+        right: 0;
+        top: -8px;
+    }
+
+    .hero-img img {
+        width: 120%;
+    }
+
+    /*-- OFFER --*/
+    #offers {
+        margin-top: 5px;
+    }
+
+    .offer-text {
+        margin-bottom: 30px;
+    }
+
+    .offer-text h1 {
+        font-size: 42px;
+    }
+
+    .offer-text p {
+        font-size: 14px;
+        margin-bottom: 5px !important;
+    }
+
+    .offer-text h4 {
+        font-size: 16px;
+    }
+
+    .offer-text h5 {
+        font-size: 16px;
+    }
+
+    .offer-text .call {
+        font-size: 18px;
+    }
+
+    /*-- ABOUT --*/
+    .about-text h1 {
+        font-size: 42px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+
+    /*-- CAROUSEL --*/
+    .clients-area h1 {
+        font-size: 36px;
+    }
+
+    #carouselExampleControls {
+        max-width: 600px;
+    }
+
+    .carousel-control-prev {
+        left: -70px !important;
+    }
+
+    .carousel-control-next {
+        right: -70px !important;
+    }
+
+    /*-- FOOTER --*/
+    .foot-right {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .foot-right h2 {
+        font-size: 28px !important;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /*-- BANNER --*/
+    #hero {
+        height: 100vh;
+    }
+
+    .text-area {
+        margin-top: 15%;
+    }
+
+    .text-area .title {
+        font-size: 42px;
+    }
+
+    .text-area .para {
+        font-size: 26px;
+    }
+
+    .hero-img img {
+        width: 120%;
+    }
+
+}

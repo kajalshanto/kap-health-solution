@@ -1,0 +1,335 @@
+/********************************
+*** GENERAL CSS
+*********************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+
+
+/********************************
+*** NAVBAR CSS
+*********************************/
+#topbar {
+    width: 100%;
+    background: #fff;
+    /*    padding: 10px 0;*/
+    margin: 0;
+}
+
+.navbar {
+    padding: .5rem 0rem;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    color: #174a67 !important;
+    font-weight: bold;
+}
+
+.navbar-brand span {
+    color: #23a3a2;
+}
+
+.form-inline .call {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+/********************************
+*** HERO CSS
+*********************************/
+#hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/cover-eps.svg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.text-area {
+    margin-top: 15%;
+    /*
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+*/
+}
+
+.text-area .title {
+    font-size: 54px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.text-area .para {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.hero-img {
+    position: absolute;
+    right: 0;
+    top: -8px;
+}
+
+.hero-img img {
+    width: 120%;
+}
+
+/********************************
+*** OFFERS CSS
+*********************************/
+#offers {
+    margin-top: 25px;
+    background: #fff;
+    padding-bottom: 50px;
+}
+
+.offer-text h1 {
+    color: #23a3a2;
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.offer-text h1:after {
+    content: '';
+    background: #23a3a2;
+    height: 3px;
+    width: 80px;
+    display: block;
+}
+
+.offer-text p {
+    font-size: 18px;
+    color: #323232;
+    text-align: justify;
+    margin-bottom: 5px !important;
+}
+
+.offer-text h4 {
+    color: #323232;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.offer-text h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #323232;
+    margin-bottom: 30px;
+}
+
+.offer-text h4 span {
+    color: #174a67;
+    font-weight: bold;
+}
+
+.offer-text .call {
+    color: #323232;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+/********************************
+*** ABOUT CSS
+*********************************/
+#about-us {
+    padding: 70px 0;
+}
+
+.about-text {
+    padding-left: 20px;
+}
+
+.about-text h1 {
+    color: #23a3a2;
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.about-text h1:after {
+    content: '';
+    background: #23a3a2;
+    height: 3px;
+    width: 80px;
+    display: block;
+}
+
+.about-text p {
+    font-size: 16px;
+    color: #323232;
+}
+
+
+/********************************
+*** TESTIMONIAL CSS
+*********************************/
+#testimonials {
+    /*    height: 640px;*/
+    padding: 70px 0;
+    width: 100%;
+    background-image: url('../images/testimonial-bg.png');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: -2px;
+}
+
+.clients-area {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.clients-area h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    padding-top: 40px;
+}
+
+.clients-area h1:after {
+    content: '';
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 3px;
+    width: 80px;
+    display: block;
+}
+
+#carouselExampleControls {
+    background: #408e96;
+    position: relative;
+    padding: 50px 0;
+    max-width: 650px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.carousel-inner {}
+
+.img-area {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    /*    border: 2px solid #fff;*/
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.client-title {
+    position: absolute;
+    top: 8px;
+    right: 65px;
+}
+
+.client-title h5 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.client-title p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.carousel-caption {
+    position: static;
+    padding-bottom: 15px;
+    padding-top: 0;
+    padding: 50px 110px;
+}
+
+.carousel-caption p span {
+    font-size: 90px;
+    font-weight: bold;
+    color: #9abcbd;
+    padding-bottom: -150px;
+    position: absolute;
+    top: 92px;
+    left: 65px;
+}
+
+.carousel-control-prev {
+    left: -170px !important;
+}
+
+.carousel-control-next {
+    right: -170px !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../images/left-arrow.png');
+}
+
+.carousel-control-next-icon {
+    background-image: url('../images/right-arrow.png');
+}
+
+/*
+.carousel-caption p:before {
+
+    content: '\201C';
+    color: #fff;
+    display: block;
+    font-size: 65px;
+
+}
+*/
+
+/********************************
+*** FOOTER CSS
+*********************************/
+#footer {
+    padding-top: 50px;
+    padding-bottom: 90px;
+    background: #174a67;
+    /*    height: 290px;*/
+}
+
+.foot-left h3 {
+    font-size: 28px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.foot-left p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.foot-right {
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    font-size: 65px;
+    display: block;
+}
+
+
